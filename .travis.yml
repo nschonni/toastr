@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - 0.8
 install:
-  - sudo npm install grunt-cli
+  - sudo npm install grunt-cli -g
+  - sudo npm install
 
 script:
   - grunt qunit jslint
